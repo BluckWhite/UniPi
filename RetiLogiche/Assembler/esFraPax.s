@@ -15,7 +15,6 @@ _main:          NOP
 ciclo:          MOV $8, %CL
                 CALL inchar                     # inchar -> %AL 
                 MOV %AL, array(%ESI)            
-                INC %ESI
                 DEC %CL
                 JZ fine_parola
 

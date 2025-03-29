@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccg4S7vM.s 			page 1
+GAS LISTING /tmp/ccuXaBfw.s 			page 1
 
 
    1              		.file	"main.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/nick/reti_logiche/assembler" "./files/main.c"
+   4              		.file 0 "/home/nick/Desktop/UniPi/RetiLogiche/Assembler" "./files/main.c"
    5              		.globl	orig_termios
    6              		.bss
    7              		.align 32
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
   31 0011 83EC04   		subl	$4, %esp
   32 0014 8D900000 		leal	orig_termios@GOTOFF(%eax), %edx
   32      0000
-GAS LISTING /tmp/ccg4S7vM.s 			page 2
+GAS LISTING /tmp/ccuXaBfw.s 			page 2
 
 
   33 001a 52       		pushl	%edx
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
   76 005e 50       		pushl	%eax
   77 005f E8FCFFFF 		call	atexit@PLT
   77      FF
-GAS LISTING /tmp/ccg4S7vM.s 			page 3
+GAS LISTING /tmp/ccuXaBfw.s 			page 3
 
 
   78 0064 83C410   		addl	$16, %esp
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
   26:./files/main.c ****   raw.c_lflag &= ~(ECHO | ICANON);
  115              		.loc 1 26 6
  116 00f7 8B45C8   		movl	-56(%ebp), %eax
-GAS LISTING /tmp/ccg4S7vM.s 			page 4
+GAS LISTING /tmp/ccuXaBfw.s 			page 4
 
 
  117              		.loc 1 26 15
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  158 0125 81C30200 		addl	$_GLOBAL_OFFSET_TABLE_, %ebx
  158      0000
   34:./files/main.c ****   printf("Segmentation fault\r\n");
-GAS LISTING /tmp/ccg4S7vM.s 			page 5
+GAS LISTING /tmp/ccuXaBfw.s 			page 5
 
 
  159              		.loc 1 34 3
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  196 016b 83EC08   		subl	$8, %esp
  197 016e 8D830000 		leal	handler@GOTOFF(%ebx), %eax
  197      0000
-GAS LISTING /tmp/ccg4S7vM.s 			page 6
+GAS LISTING /tmp/ccuXaBfw.s 			page 6
 
 
  198 0174 50       		pushl	%eax
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  246              		.file 3 "/usr/include/bits/termios-struct.h"
  247              		.file 4 "/usr/include/signal.h"
  248              		.file 5 "/usr/include/stdlib.h"
-GAS LISTING /tmp/ccg4S7vM.s 			page 7
+GAS LISTING /tmp/ccuXaBfw.s 			page 7
 
 
  249              		.file 6 "/usr/include/termios.h"
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  303 0067 07       		.byte	0x7
  304 0068 C2000000 		.long	.LASF10
  305 006c 01       		.uleb128 0x1
-GAS LISTING /tmp/ccg4S7vM.s 			page 8
+GAS LISTING /tmp/ccuXaBfw.s 			page 8
 
 
  306 006d 01       		.byte	0x1
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  360 00d9 1E       		.byte	0x1e
  361 00da 0A       		.byte	0xa
  362 00db 73000000 		.long	0x73
-GAS LISTING /tmp/ccg4S7vM.s 			page 9
+GAS LISTING /tmp/ccuXaBfw.s 			page 9
 
 
  363 00df 10       		.byte	0x10
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  417 014e 10       		.uleb128 0x10
  418 014f 0F000000 		.long	.LASF32
  419 0153 01       		.byte	0x1
-GAS LISTING /tmp/ccg4S7vM.s 			page 10
+GAS LISTING /tmp/ccuXaBfw.s 			page 10
 
 
  420 0154 27       		.byte	0x27
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  474 01cb 46       		.byte	0x46
  475 01cc 0C       		.byte	0xc
  476 01cd 34000000 		.long	0x34
-GAS LISTING /tmp/ccg4S7vM.s 			page 11
+GAS LISTING /tmp/ccuXaBfw.s 			page 11
 
 
  477 01d1 E5010000 		.long	0x1e5
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  531 0243 12       		.byte	0x12
  532 0244 97000000 		.long	0x97
  533 0248 03       		.uleb128 0x3
-GAS LISTING /tmp/ccg4S7vM.s 			page 12
+GAS LISTING /tmp/ccuXaBfw.s 			page 12
 
 
  534 0249 91       		.byte	0x91
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  588 0027 03       		.uleb128 0x3
  589 0028 0E       		.uleb128 0xe
  590 0029 3A       		.uleb128 0x3a
-GAS LISTING /tmp/ccg4S7vM.s 			page 13
+GAS LISTING /tmp/ccuXaBfw.s 			page 13
 
 
  591 002a 0B       		.uleb128 0xb
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  645 0060 01       		.uleb128 0x1
  646 0061 12       		.uleb128 0x12
  647 0062 06       		.uleb128 0x6
-GAS LISTING /tmp/ccg4S7vM.s 			page 14
+GAS LISTING /tmp/ccuXaBfw.s 			page 14
 
 
  648 0063 10       		.uleb128 0x10
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  702 0099 0B       		.uleb128 0xb
  703 009a 00       		.byte	0
  704 009b 00       		.byte	0
-GAS LISTING /tmp/ccg4S7vM.s 			page 15
+GAS LISTING /tmp/ccuXaBfw.s 			page 15
 
 
  705 009c 0D       		.uleb128 0xd
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  759 00d2 00       		.byte	0
  760 00d3 00       		.byte	0
  761 00d4 11       		.uleb128 0x11
-GAS LISTING /tmp/ccg4S7vM.s 			page 16
+GAS LISTING /tmp/ccuXaBfw.s 			page 16
 
 
  762 00d5 18       		.uleb128 0x18
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  816 010c 19       		.uleb128 0x19
  817 010d 03       		.uleb128 0x3
  818 010e 0E       		.uleb128 0xe
-GAS LISTING /tmp/ccg4S7vM.s 			page 17
+GAS LISTING /tmp/ccuXaBfw.s 			page 17
 
 
  819 010f 3A       		.uleb128 0x3a
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  873 0145 39       		.uleb128 0x39
  874 0146 0B       		.uleb128 0xb
  875 0147 49       		.uleb128 0x49
-GAS LISTING /tmp/ccg4S7vM.s 			page 18
+GAS LISTING /tmp/ccuXaBfw.s 			page 18
 
 
  876 0148 13       		.uleb128 0x13
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  930 017e 3A       		.uleb128 0x3a
  931 017f 0B       		.uleb128 0xb
  932 0180 3B       		.uleb128 0x3b
-GAS LISTING /tmp/ccg4S7vM.s 			page 19
+GAS LISTING /tmp/ccuXaBfw.s 			page 19
 
 
  933 0181 0B       		.uleb128 0xb
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  973      65642069 
  973      6E7400
  974              	.LASF17:
-GAS LISTING /tmp/ccg4S7vM.s 			page 20
+GAS LISTING /tmp/ccuXaBfw.s 			page 20
 
 
  975 003f 635F6366 		.string	"c_cflag"
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  997      7400
  998              	.LASF18:
  999 0119 635F6C66 		.string	"c_lflag"
-GAS LISTING /tmp/ccg4S7vM.s 			page 21
+GAS LISTING /tmp/ccuXaBfw.s 			page 21
 
 
  999      6C616700 
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  1030              	.LASF8:
  1031 019b 7369676E 		.string	"signed char"
  1031      65642063 
-GAS LISTING /tmp/ccg4S7vM.s 			page 22
+GAS LISTING /tmp/ccuXaBfw.s 			page 22
 
 
  1031      68617200 
@@ -1269,30 +1269,30 @@ GAS LISTING /tmp/ccg4S7vM.s 			page 1
  1034      6D61696E 
  1034      2E6300
  1035              	.LASF1:
- 1036 000f 2F686F6D 		.string	"/home/nick/reti_logiche/assembler"
+ 1036 000f 2F686F6D 		.string	"/home/nick/Desktop/UniPi/RetiLogiche/Assembler"
  1036      652F6E69 
- 1036      636B2F72 
- 1036      6574695F 
- 1036      6C6F6769 
+ 1036      636B2F44 
+ 1036      65736B74 
+ 1036      6F702F55 
  1037              		.ident	"GCC: (Debian 12.2.0-14) 12.2.0"
- 1038 0031 2F686F6D 		.section	.note.GNU-stack,"",@progbits
+ 1038 003e 2F686F6D 		.section	.note.GNU-stack,"",@progbits
  1038      652F6E69 
- 1038      636B2F72 
- 1038      6574695F 
- 1038      6C6F6769 
-GAS LISTING /tmp/ccg4S7vM.s 			page 23
+ 1038      636B2F44 
+ 1038      65736B74 
+ 1038      6F702F55 
+GAS LISTING /tmp/ccuXaBfw.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
                             *ABS*:00000001 LINUX
-     /tmp/ccg4S7vM.s:10     .bss:00000000 orig_termios
-     /tmp/ccg4S7vM.s:15     .text:00000000 disableRawMode
-     /tmp/ccg4S7vM.s:225    .text.__x86.get_pc_thunk.ax:00000000 __x86.get_pc_thunk.ax
-     /tmp/ccg4S7vM.s:52     .text:0000002f enableRawMode
-     /tmp/ccg4S7vM.s:236    .text.__x86.get_pc_thunk.bx:00000000 __x86.get_pc_thunk.bx
-     /tmp/ccg4S7vM.s:145    .text:00000119 handler
-     /tmp/ccg4S7vM.s:176    .text:0000014c main
+     /tmp/ccuXaBfw.s:10     .bss:00000000 orig_termios
+     /tmp/ccuXaBfw.s:15     .text:00000000 disableRawMode
+     /tmp/ccuXaBfw.s:225    .text.__x86.get_pc_thunk.ax:00000000 __x86.get_pc_thunk.ax
+     /tmp/ccuXaBfw.s:52     .text:0000002f enableRawMode
+     /tmp/ccuXaBfw.s:236    .text.__x86.get_pc_thunk.bx:00000000 __x86.get_pc_thunk.bx
+     /tmp/ccuXaBfw.s:145    .text:00000119 handler
+     /tmp/ccuXaBfw.s:176    .text:0000014c main
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_
@@ -1303,7 +1303,7 @@ puts
 exit
 signal
 _main
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 1
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 1
 
 
    1              	
@@ -1337,47 +1337,47 @@ GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025
   25              	.ifdef LINUX
   26              	
   27              	.DATA
-  28 0000 00       	ic_tmp: .byte 0			 		
+  28 ???? 00       	ic_tmp: .byte 0			 		
   29              	
   30              	.TEXT
-  31 0000 53       	inchar:  PUSH %EBX
-  32 0001 51       	         PUSH %ECX
-  33 0002 52       	         PUSH %EDX
+  31 ???? 53       	inchar:  PUSH %EBX
+  32 ???? 51       	         PUSH %ECX
+  33 ???? 52       	         PUSH %EDX
   34              	inchar_loop:
-  35 0003 50       	         PUSH %EAX
-  36 0004 B8030000 	         MOV $3,%EAX            # sys_read
+  35 ???? 50       	         PUSH %EAX
+  36 ???? B8030000 	         MOV $3,%EAX            # sys_read
   36      00
-  37 0009 BB000000 	         MOV $0,%EBX            # fd of stdin
+  37 ???? BB000000 	         MOV $0,%EBX            # fd of stdin
   37      00
-  38 000e 8D0D0000 	         LEA ic_tmp,%ECX        # address of buffer
+  38 ???? 8D0D0000 	         LEA ic_tmp,%ECX        # address of buffer
   38      0000
-  39 0014 BA010000 	         MOV $1,%EDX            # read 1 character
+  39 ???? BA010000 	         MOV $1,%EDX            # read 1 character
   39      00
-  40 0019 CD80     	         INT $0x80
-  41 001b 58       	         POP %EAX
-  42 001c A0000000 	         MOV ic_tmp,%AL
+  40 ???? CD80     	         INT $0x80
+  41 ???? 58       	         POP %EAX
+  42 ???? A0000000 	         MOV ic_tmp,%AL
   42      00
   43              	
-  44 0021 3C0D     	         CMP $0x0D, %AL         # ignore CR, for input redirection with CRLF files
-  45 0023 74DE     	         JE inchar_loop         # redirection with LF files is supported
+  44 ???? 3C0D     	         CMP $0x0D, %AL         # ignore CR, for input redirection with CRLF files
+  45 ???? 74DE     	         JE inchar_loop         # redirection with LF files is supported
   46              	
-  47 0025 3C0A     	         CMP $0x0A, %AL         # convert LF to CR, to have the same ENTER behavior as DOS
-  48 0027 7502     	         JNE inchar_next
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 2
+  47 ???? 3C0A     	         CMP $0x0A, %AL         # convert LF to CR, to have the same ENTER behavior as DOS
+  48 ???? 7502     	         JNE inchar_next
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 2
 
 
-  49 0029 B00D     	         MOV $0x0D, %AL
+  49 ???? B00D     	         MOV $0x0D, %AL
   50              	
   51              	inchar_next:
-  52 002b 3C7F     	         CMP $0x7F, %AL         # convert delete (0x7f) to backspace (0x08)
-  53 002d 7502     	         JNE inchar_fine        # because Linus decided that the backspace key should send a delete
-  54 002f B008     	         MOV $0x08, %AL
+  52 ???? 3C7F     	         CMP $0x7F, %AL         # convert delete (0x7f) to backspace (0x08)
+  53 ???? 7502     	         JNE inchar_fine        # because Linus decided that the backspace key should send a delete
+  54 ???? B008     	         MOV $0x08, %AL
   55              	
   56              	inchar_fine:
-  57 0031 5A       	         POP %EDX
-  58 0032 59       	         POP %ECX
-  59 0033 5B       	         POP %EBX
-  60 0034 C3       	         RET
+  57 ???? 5A       	         POP %EDX
+  58 ???? 59       	         POP %ECX
+  59 ???? 5B       	         POP %EBX
+  60 ???? C3       	         RET
   61              	
   62              	.endif
   63              	
@@ -1400,34 +1400,34 @@ GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025
   80              	.ifdef LINUX
   81              	
   82              	.DATA
-  83 0001 30       	oc_tmp: .ASCII  "0"
+  83 ???? 30       	oc_tmp: .ASCII  "0"
   84              	
   85              	.TEXT
-  86 0035 50       	outchar: PUSH %EAX
-  87 0036 53       	         PUSH %EBX
-  88 0037 51       	         PUSH %ECX
-  89 0038 52       	         PUSH %EDX
+  86 ???? 50       	outchar: PUSH %EAX
+  87 ???? 53       	         PUSH %EBX
+  88 ???? 51       	         PUSH %ECX
+  89 ???? 52       	         PUSH %EDX
   90              	
-  91 0039 A2010000 	         MOV %al,oc_tmp
+  91 ???? A2010000 	         MOV %al,oc_tmp
   91      00
-  92 003e B8040000 	         MOV $4,%EAX       # sys_write
+  92 ???? B8040000 	         MOV $4,%EAX       # sys_write
   92      00
-  93 0043 BB010000 	         MOV $1,%EBX       # fd of stdout
+  93 ???? BB010000 	         MOV $1,%EBX       # fd of stdout
   93      00
-  94 0048 8D0D0100 	         LEA oc_tmp,%ECX   # address of buffer
+  94 ???? 8D0D0100 	         LEA oc_tmp,%ECX   # address of buffer
   94      0000
-  95 004e BA010000 	         MOV $1,%EDX       # write 1 character
+  95 ???? BA010000 	         MOV $1,%EDX       # write 1 character
   95      00
-  96 0053 CD80     	         INT $0x80
+  96 ???? CD80     	         INT $0x80
   97              	
-  98 0055 5A       	         POP %EDX
-  99 0056 59       	         POP %ECX
- 100 0057 5B       	         POP %EBX
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 3
+  98 ???? 5A       	         POP %EDX
+  99 ???? 59       	         POP %ECX
+ 100 ???? 5B       	         POP %EBX
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 3
 
 
- 101 0058 58       	         POP %EAX
- 102 0059 C3       	         RET
+ 101 ???? 58       	         POP %EAX
+ 102 ???? C3       	         RET
  103              	
  104              	.endif
  105              	
@@ -1436,526 +1436,526 @@ GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025
  108              	//------------------------------------------------------------------------------
  109              	
  110              	.TEXT
- 111 005a 53       	inbyte:  PUSH %EBX
- 112 005b 88E7     	         MOV  %AH,%BH
- 113 005d E8A60100 	         CALL inhexchar
+ 111 ???? 53       	inbyte:  PUSH %EBX
+ 112 ???? 88E7     	         MOV  %AH,%BH
+ 113 ???? E8A60100 	         CALL inhexchar
  113      00
- 114 0062 E8CEFFFF 	         CALL outchar
+ 114 ???? E8CEFFFF 	         CALL outchar
  114      FF
- 115 0067 88C4     	         MOV  %AL,%AH
- 116 0069 E89A0100 	         CALL inhexchar
+ 115 ???? 88C4     	         MOV  %AL,%AH
+ 116 ???? E89A0100 	         CALL inhexchar
  116      00
- 117 006e E8C2FFFF 	         CALL outchar
+ 117 ???? E8C2FFFF 	         CALL outchar
  117      FF
- 118 0073 E8D20100 	         CALL HA2B8
+ 118 ???? E8D20100 	         CALL HA2B8
  118      00
- 119 0078 88FC     	         MOV  %BH,%AH
- 120 007a 5B       	         POP  %EBX
- 121 007b C3       	         RET
+ 119 ???? 88FC     	         MOV  %BH,%AH
+ 120 ???? 5B       	         POP  %EBX
+ 121 ???? C3       	         RET
  122              	//------------------------------------------------------------------------------
  123              	.TEXT
- 124 007c E8D9FFFF 	inword:  CALL inbyte
+ 124 ???? E8D9FFFF 	inword:  CALL inbyte
  124      FF
- 125 0081 88C4     	         MOV  %AL,%AH
- 126 0083 E8D2FFFF 	         CALL inbyte
+ 125 ???? 88C4     	         MOV  %AL,%AH
+ 126 ???? E8D2FFFF 	         CALL inbyte
  126      FF
- 127 0088 C3       	         RET
+ 127 ???? C3       	         RET
  128              	//------------------------------------------------------------------------------
  129              	.TEXT
  130              	inlong:
- 131 0089 E8EEFFFF 	indword:  CALL inword
+ 131 ???? E8EEFFFF 	indword:  CALL inword
  131      FF
- 132 008e C1E010   	         SHL  $16,%EAX
- 133 0091 E8E6FFFF 	         CALL inword
+ 132 ???? C1E010   	         SHL  $16,%EAX
+ 133 ???? E8E6FFFF 	         CALL inword
  133      FF
- 134 0096 C3       	         RET
+ 134 ???? C3       	         RET
  135              	//------------------------------------------------------------------------------
  136              	.TEXT
- 137 0097 50       	outbyte: PUSH %EAX
- 138 0098 E88D0100 	         CALL B8HA2
+ 137 ???? 50       	outbyte: PUSH %EAX
+ 138 ???? E88D0100 	         CALL B8HA2
  138      00
- 139 009d 86C4     	         XCHG %AL,%AH
- 140 009f E891FFFF 	         CALL outchar
+ 139 ???? 86C4     	         XCHG %AL,%AH
+ 140 ???? E891FFFF 	         CALL outchar
  140      FF
- 141 00a4 86C4     	         XCHG %AL,%AH
- 142 00a6 E88AFFFF 	         CALL outchar
+ 141 ???? 86C4     	         XCHG %AL,%AH
+ 142 ???? E88AFFFF 	         CALL outchar
  142      FF
- 143 00ab 58       	         POP  %EAX
- 144 00ac C3       	         RET
+ 143 ???? 58       	         POP  %EAX
+ 144 ???? C3       	         RET
  145              	//------------------------------------------------------------------------------
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 4
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 4
 
 
  146              	.TEXT
- 147 00ad 86C4     	outword: XCHG %AL,%AH
- 148 00af E8E3FFFF 	         CALL outbyte
+ 147 ???? 86C4     	outword: XCHG %AL,%AH
+ 148 ???? E8E3FFFF 	         CALL outbyte
  148      FF
- 149 00b4 86C4     	         XCHG %AL,%AH
- 150 00b6 E8DCFFFF 	         CALL outbyte
+ 149 ???? 86C4     	         XCHG %AL,%AH
+ 150 ???? E8DCFFFF 	         CALL outbyte
  150      FF
- 151 00bb C3       	         RET
+ 151 ???? C3       	         RET
  152              	//------------------------------------------------------------------------------
  153              	.TEXT
  154              	outlong:
- 155 00bc C1C010   	outdword: ROL  $16, %EAX
- 156 00bf E8E9FFFF 	              CALL outword
+ 155 ???? C1C010   	outdword: ROL  $16, %EAX
+ 156 ???? E8E9FFFF 	              CALL outword
  156      FF
- 157 00c4 C1C010   	              ROL  $16,%EAX
- 158 00c7 E8E1FFFF 	              CALL outword
+ 157 ???? C1C010   	              ROL  $16,%EAX
+ 158 ???? E8E1FFFF 	              CALL outword
  158      FF
- 159 00cc C3       	              RET
+ 159 ???? C3       	              RET
  160              	
  161              	//------------------------------------------------------------------------------//-----------------
  162              	.TEXT
- 163 00cd 50       	newline: PUSH  %EAX
- 164 00ce B00D     	         MOV   $0x0D,%AL
- 165 00d0 E860FFFF 	         CALL  outchar
+ 163 ???? 50       	newline: PUSH  %EAX
+ 164 ???? B00D     	         MOV   $0x0D,%AL
+ 165 ???? E860FFFF 	         CALL  outchar
  165      FF
- 166 00d5 B00A     	         MOV   $0x0A,%AL
- 167 00d7 E859FFFF 	         CALL  outchar
+ 166 ???? B00A     	         MOV   $0x0A,%AL
+ 167 ???? E859FFFF 	         CALL  outchar
  167      FF
- 168 00dc 58       	         POP   %EAX
- 169 00dd C3       	         RET
+ 168 ???? 58       	         POP   %EAX
+ 169 ???? C3       	         RET
  170              	#------------------------------------------------------------------------------
  171              	.DATA
- 172 0002 43686563 	L247513: .ASCII  "Checkpoint number "
+ 172 ???? 43686563 	L247513: .ASCII  "Checkpoint number "
  172      6B706F69 
  172      6E74206E 
  172      756D6265 
  172      7220
- 173 0014 782E2050 	L247003: .ASCII  "x. Press any key to continue"
+ 173 ???? 782E2050 	L247003: .ASCII  "x. Press any key to continue"
  173      72657373 
  173      20616E79 
  173      206B6579 
  173      20746F20 
- 174 0030 00000000 	L247893: .FILL 1,4
+ 174 ???? 00000000 	L247893: .FILL 1,4
  175              	
  176              	.TEXT
- 177 00de 90       	pause :  NOP
- 178 00df C6051400 	pause0:  MOVB $0x30,L247003
+ 177 ???? 90       	pause :  NOP
+ 178 ???? C6051400 	pause0:  MOVB $0x30,L247003
  178      000030
- 179 00e6 EB51     	         JMP L271893     
- 180 00e8 C6051400 	pause1:  MOVB $0x31,L247003
+ 179 ???? EB51     	         JMP L271893     
+ 180 ???? C6051400 	pause1:  MOVB $0x31,L247003
  180      000031
- 181 00ef EB48     	         JMP L271893     
- 182 00f1 C6051400 	pause2:  MOVB $0x32,L247003
+ 181 ???? EB48     	         JMP L271893     
+ 182 ???? C6051400 	pause2:  MOVB $0x32,L247003
  182      000032
- 183 00f8 EB3F     	         JMP L271893     
- 184 00fa C6051400 	pause3:  MOVB $0x33,L247003
+ 183 ???? EB3F     	         JMP L271893     
+ 184 ???? C6051400 	pause3:  MOVB $0x33,L247003
  184      000033
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 5
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 5
 
 
- 185 0101 EB36     	         JMP L271893     
- 186 0103 C6051400 	pause4:  MOVB $0x34,L247003
+ 185 ???? EB36     	         JMP L271893     
+ 186 ???? C6051400 	pause4:  MOVB $0x34,L247003
  186      000034
- 187 010a EB2D     	         JMP L271893     
- 188 010c C6051400 	pause5:  MOVB $0x35,L247003
+ 187 ???? EB2D     	         JMP L271893     
+ 188 ???? C6051400 	pause5:  MOVB $0x35,L247003
  188      000035
- 189 0113 EB24     	         JMP L271893     
- 190 0115 C6051400 	pause6:  MOVB $0x36,L247003
+ 189 ???? EB24     	         JMP L271893     
+ 190 ???? C6051400 	pause6:  MOVB $0x36,L247003
  190      000036
- 191 011c EB1B     	         JMP L271893
- 192 011e C6051400 	pause7:  MOVB $0x37,L247003
+ 191 ???? EB1B     	         JMP L271893
+ 192 ???? C6051400 	pause7:  MOVB $0x37,L247003
  192      000037
- 193 0125 EB12     	         JMP L271893     
- 194 0127 C6051400 	pause8:  MOVB $0x38,L247003
+ 193 ???? EB12     	         JMP L271893     
+ 194 ???? C6051400 	pause8:  MOVB $0x38,L247003
  194      000038
- 195 012e EB09     	         JMP L271893     
- 196 0130 C6051400 	pause9:  MOVB $0x39,L247003
+ 195 ???? EB09     	         JMP L271893     
+ 196 ???? C6051400 	pause9:  MOVB $0x39,L247003
  196      000039
- 197 0137 EB00     	         JMP L271893     
- 198 0139 50       	L271893: PUSH %EAX
- 199 013a 51       	         PUSH %ECX  
- 200 013b 56       	         PUSH %ESI
- 201 013c E88CFFFF 	         CALL newline
+ 197 ???? EB00     	         JMP L271893     
+ 198 ???? 50       	L271893: PUSH %EAX
+ 199 ???? 51       	         PUSH %ECX  
+ 200 ???? 56       	         PUSH %ESI
+ 201 ???? E88CFFFF 	         CALL newline
  201      FF
- 202 0141 BE020000 	         MOV  $L247513,%ESI
+ 202 ???? BE020000 	         MOV  $L247513,%ESI
  202      00
- 203 0146 66B92E00 	         MOV  $(L247893-L247513),%CX
- 204 014a 8A06     	L247527: MOV  (%ESI),%AL
- 205 014c E8E4FEFF 	         CALL outchar
+ 203 ???? 66B92E00 	         MOV  $(L247893-L247513),%CX
+ 204 ???? 8A06     	L247527: MOV  (%ESI),%AL
+ 205 ???? E8E4FEFF 	         CALL outchar
  205      FF
- 206 0151 46       	         INC  %ESI
- 207 0152 6649     	         DEC  %CX
- 208 0154 75F4     	         JNZ  L247527
- 209 0156 E872FFFF 	         CALL newline
+ 206 ???? 46       	         INC  %ESI
+ 207 ???? 6649     	         DEC  %CX
+ 208 ???? 75F4     	         JNZ  L247527
+ 209 ???? E872FFFF 	         CALL newline
  209      FF
- 210 015b E8A0FEFF 	         CALL inchar
+ 210 ???? E8A0FEFF 	         CALL inchar
  210      FF
- 211 0160 5E       	         POP  %ESI
- 212 0161 59       	         POP  %ECX
- 213 0162 58       	         POP  %EAX
- 214 0163 C3       	         RET
+ 211 ???? 5E       	         POP  %ESI
+ 212 ???? 59       	         POP  %ECX
+ 213 ???? 58       	         POP  %EAX
+ 214 ???? C3       	         RET
  215              	
  216              	#---------------------------------------------------------------------------
  217              	.TEXT
- 218 0164 6683F902 	inline:  CMP     $2,%CX
- 219 0168 7262     	         JB      L409ABB  # salta a fine
- 220 016a 6683F950 	         CMP     $80,%CX
- 221 016e 775C     	         JA      L409ABB  # salta a fine
+ 218 ???? 6683F902 	inline:  CMP     $2,%CX
+ 219 ???? 7262     	         JB      L409ABB  # salta a fine
+ 220 ???? 6683F950 	         CMP     $80,%CX
+ 221 ???? 775C     	         JA      L409ABB  # salta a fine
  222              	
- 223 0170 50       	         PUSH    %EAX
- 224 0171 53       	         PUSH    %EBX
- 225 0172 51       	         PUSH    %ECX
- 226 0173 52       	         PUSH    %EDX
+ 223 ???? 50       	         PUSH    %EAX
+ 224 ???? 53       	         PUSH    %EBX
+ 225 ???? 51       	         PUSH    %ECX
+ 226 ???? 52       	         PUSH    %EDX
  227              	
- 228 0174 6689CA   	         MOV     %CX, %DX   # salva numero caratteri iniziale
+ 228 ???? 6689CA   	         MOV     %CX, %DX   # salva numero caratteri iniziale
  229              	             
- 230 0177 6683F902 	L4004C:  CMP     $2, %CX      #ciclo
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 6
+ 230 ???? 6683F902 	L4004C:  CMP     $2, %CX      #ciclo
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 6
 
 
- 231 017b 7438     	         JE      L40093       #salta a quasi fine
- 232 017d E87EFEFF 	         CALL    inchar    
+ 231 ???? 7438     	         JE      L40093       #salta a quasi fine
+ 232 ???? E87EFEFF 	         CALL    inchar    
  232      FF
- 233 0182 3C0D     	         CMP     $0x0D,%AL
- 234 0184 742F     	         JE      L40093      # salta a quasi fine 
+ 233 ???? 3C0D     	         CMP     $0x0D,%AL
+ 234 ???? 742F     	         JE      L40093      # salta a quasi fine 
  235              	            
- 236 0186 3C08     	         CMP     $0x08,%AL   
- 237 0188 740C     	         JE      L67193      #salta a elimina carattere
+ 236 ???? 3C08     	         CMP     $0x08,%AL   
+ 237 ???? 740C     	         JE      L67193      #salta a elimina carattere
  238              	             
- 239 018a E8A6FEFF 	L50193:  CALL    outchar
+ 239 ???? E8A6FEFF 	L50193:  CALL    outchar
  239      FF
- 240 018f 8803     	         MOV     %AL,(%EBX)
- 241 0191 43       	         INC     %EBX
- 242 0192 6649     	         DEC     %CX
- 243 0194 EBE1     	         JMP     L4004C      #torna in ciclo
+ 240 ???? 8803     	         MOV     %AL,(%EBX)
+ 241 ???? 43       	         INC     %EBX
+ 242 ???? 6649     	         DEC     %CX
+ 243 ???? EBE1     	         JMP     L4004C      #torna in ciclo
  244              	
  245              	#elimina carattere
- 246 0196 6639CA   	L67193:  CMP     %CX, %DX    #impedisce di cancellare oltre l'inizio del buffer
- 247 0199 74DC     	         JE      L4004C      
- 248 019b 4B       	         DEC     %EBX        
- 249 019c 6641     	         INC     %CX
- 250 019e B008     	         MOV     $0x08, %AL
- 251 01a0 E890FEFF 	         CALL    outchar
+ 246 ???? 6639CA   	L67193:  CMP     %CX, %DX    #impedisce di cancellare oltre l'inizio del buffer
+ 247 ???? 74DC     	         JE      L4004C      
+ 248 ???? 4B       	         DEC     %EBX        
+ 249 ???? 6641     	         INC     %CX
+ 250 ???? B008     	         MOV     $0x08, %AL
+ 251 ???? E890FEFF 	         CALL    outchar
  251      FF
- 252 01a5 B020     	         MOV     $0x20, %AL
- 253 01a7 E889FEFF 	         CALL    outchar 
+ 252 ???? B020     	         MOV     $0x20, %AL
+ 253 ???? E889FEFF 	         CALL    outchar 
  253      FF
- 254 01ac B008     	         MOV     $0x08, %AL
- 255 01ae E882FEFF 	         CALL    outchar
+ 254 ???? B008     	         MOV     $0x08, %AL
+ 255 ???? E882FEFF 	         CALL    outchar
  255      FF
- 256 01b3 EBC2     	         JMP     L4004C
+ 256 ???? EBC2     	         JMP     L4004C
  257              	                 
- 258 01b5 B00D     	L40093:  MOV     $0x0D,%AL   #quasi fine
- 259 01b7 E879FEFF 	         CALL    outchar
+ 258 ???? B00D     	L40093:  MOV     $0x0D,%AL   #quasi fine
+ 259 ???? E879FEFF 	         CALL    outchar
  259      FF
- 260 01bc 8803     	         MOV     %AL,(%EBX)
- 261 01be 43       	         INC     %EBX
- 262 01bf B00A     	         MOV     $0x0A,%AL
- 263 01c1 E86FFEFF 	         CALL    outchar
+ 260 ???? 8803     	         MOV     %AL,(%EBX)
+ 261 ???? 43       	         INC     %EBX
+ 262 ???? B00A     	         MOV     $0x0A,%AL
+ 263 ???? E86FFEFF 	         CALL    outchar
  263      FF
- 264 01c6 8803     	         MOV     %AL,(%EBX)
- 265 01c8 5A       	         POP     %EDX
- 266 01c9 59       	         POP     %ECX
- 267 01ca 5B       	         POP     %EBX
- 268 01cb 58       	         POP     %EAX
- 269 01cc C3       	L409ABB: RET
+ 264 ???? 8803     	         MOV     %AL,(%EBX)
+ 265 ???? 5A       	         POP     %EDX
+ 266 ???? 59       	         POP     %ECX
+ 267 ???? 5B       	         POP     %EBX
+ 268 ???? 58       	         POP     %EAX
+ 269 ???? C3       	L409ABB: RET
  270              	#------------------------------------------------------------------------------
  271              	
  272              	.TEXT
- 273 01cd 50       	outline: PUSH %EAX
- 274 01ce 53       	         PUSH %EBX
- 275 01cf 51       	         PUSH %ECX
- 276 01d0 66B95000 	         MOV $80,%CX
- 277 01d4 8A03     	L4001B:  MOV  (%EBX),%AL
- 278 01d6 3C0D     	         CMP  $0x0D,%AL
- 279 01d8 740C     	         JZ   L4002A
- 280 01da 6649     	         DEC %CX
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 7
+ 273 ???? 50       	outline: PUSH %EAX
+ 274 ???? 53       	         PUSH %EBX
+ 275 ???? 51       	         PUSH %ECX
+ 276 ???? 66B95000 	         MOV $80,%CX
+ 277 ???? 8A03     	L4001B:  MOV  (%EBX),%AL
+ 278 ???? 3C0D     	         CMP  $0x0D,%AL
+ 279 ???? 740C     	         JZ   L4002A
+ 280 ???? 6649     	         DEC %CX
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 7
 
 
- 281 01dc 7408     	         JZ   L4002A
- 282 01de E852FEFF 	         CALL outchar
+ 281 ???? 7408     	         JZ   L4002A
+ 282 ???? E852FEFF 	         CALL outchar
  282      FF
- 283 01e3 43       	         INC  %EBX
- 284 01e4 EBEE     	         JMP  L4001B
- 285 01e6 E8E2FEFF 	L4002A:  CALL newline
+ 283 ???? 43       	         INC  %EBX
+ 284 ???? EBEE     	         JMP  L4001B
+ 285 ???? E8E2FEFF 	L4002A:  CALL newline
  285      FF
- 286 01eb 59       			 POP  %ECX
- 287 01ec 5B       	         POP  %EBX
- 288 01ed 58       	         POP  %EAX
- 289 01ee C3       	         RET
+ 286 ???? 59       			 POP  %ECX
+ 287 ???? 5B       	         POP  %EBX
+ 288 ???? 58       	         POP  %EAX
+ 289 ???? C3       	         RET
  290              	#------------------------------------------------------------------------------
  291              	
  292              	.TEXT
- 293 01ef 50       	outmess:   PUSH   %EAX
- 294 01f0 53       		   PUSH   %EBX
- 295 01f1 51       		   PUSH   %ECX
- 296 01f2 6683F900 	L087509:   CMP    $0,%CX
- 297 01f6 740C     		   JE     L087508
- 298 01f8 8A03     		   MOV    (%EBX),%AL
- 299 01fa E836FEFF 		   CALL   outchar
+ 293 ???? 50       	outmess:   PUSH   %EAX
+ 294 ???? 53       		   PUSH   %EBX
+ 295 ???? 51       		   PUSH   %ECX
+ 296 ???? 6683F900 	L087509:   CMP    $0,%CX
+ 297 ???? 740C     		   JE     L087508
+ 298 ???? 8A03     		   MOV    (%EBX),%AL
+ 299 ???? E836FEFF 		   CALL   outchar
  299      FF
- 300 01ff 43       		   INC    %EBX
- 301 0200 6649     		   DEC    %CX
- 302 0202 EBEE     		   JMP    L087509
- 303 0204 59       	L087508:   POP    %ECX
- 304 0205 5B       		   POP    %EBX
- 305 0206 58       		   POP    %EAX
- 306 0207 C3       		   RET
+ 300 ???? 43       		   INC    %EBX
+ 301 ???? 6649     		   DEC    %CX
+ 302 ???? EBEE     		   JMP    L087509
+ 303 ???? 59       	L087508:   POP    %ECX
+ 304 ???? 5B       		   POP    %EBX
+ 305 ???? 58       		   POP    %EAX
+ 306 ???? C3       		   RET
  307              	#------------------------------------------------------------------------------
  308              	
  309              	.TEXT
- 310 0208 E8F3FDFF 	inhexchar: CALL  inchar
+ 310 ???? E8F3FDFF 	inhexchar: CALL  inchar
  310      FF
- 311 020d 3C30     	            CMP   $'0',%AL
- 312 020f 72F7     	            JB    inhexchar
- 313 0211 3C46     	            CMP   $'F',%AL
- 314 0213 77F3     	            JA    inhexchar
- 315 0215 3C39     	            CMP   $'9',%AL
- 316 0217 7604     	            JBE   L3A89B3
- 317 0219 3C41     	            CMP   $'A',%AL
- 318 021b 72EB     	            JB    inhexchar
- 319 021d C3       	L3A89B3:    RET
+ 311 ???? 3C30     	            CMP   $'0',%AL
+ 312 ???? 72F7     	            JB    inhexchar
+ 313 ???? 3C46     	            CMP   $'F',%AL
+ 314 ???? 77F3     	            JA    inhexchar
+ 315 ???? 3C39     	            CMP   $'9',%AL
+ 316 ???? 7604     	            JBE   L3A89B3
+ 317 ???? 3C41     	            CMP   $'A',%AL
+ 318 ???? 72EB     	            JB    inhexchar
+ 319 ???? C3       	L3A89B3:    RET
  320              	#------------------------------------------------------------------------------
  321              	.TEXT
- 322 021e 240F     	B4HA1:    AND    $0x0F,%AL
- 323 0220 3C09     	          CMP    $9,%AL
- 324 0222 7703     	          JA     L3ACD37
- 325 0224 0430     	L3ACD30:  ADD    $0x30,%AL
- 326 0226 C3       	          RET
- 327 0227 0437     	L3ACD37: ADD    $0x37,%AL
- 328 0229 C3       	          RET
+ 322 ???? 240F     	B4HA1:    AND    $0x0F,%AL
+ 323 ???? 3C09     	          CMP    $9,%AL
+ 324 ???? 7703     	          JA     L3ACD37
+ 325 ???? 0430     	L3ACD30:  ADD    $0x30,%AL
+ 326 ???? C3       	          RET
+ 327 ???? 0437     	L3ACD37: ADD    $0x37,%AL
+ 328 ???? C3       	          RET
  329              	#------------------------------------------------------------------------------
  330              	.TEXT
- 331 022a 51       	B8HA2: PUSH    %ECX
- 332 022b 88C5     	       MOV     %AL,%CH
- 333 022d C0E804   	       SHR     $4,%AL
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 8
+ 331 ???? 51       	B8HA2: PUSH    %ECX
+ 332 ???? 88C5     	       MOV     %AL,%CH
+ 333 ???? C0E804   	       SHR     $4,%AL
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 8
 
 
- 334 0230 E8E9FFFF 	       CALL    B4HA1
+ 334 ???? E8E9FFFF 	       CALL    B4HA1
  334      FF
- 335 0235 88C4     	       MOV     %AL,%AH
- 336 0237 88E8     	       MOV     %CH,%AL
- 337 0239 E8E0FFFF 	       CALL    B4HA1
+ 335 ???? 88C4     	       MOV     %AL,%AH
+ 336 ???? 88E8     	       MOV     %CH,%AL
+ 337 ???? E8E0FFFF 	       CALL    B4HA1
  337      FF
- 338 023e 59       	       POP     %ECX
- 339 023f C3       	       RET
+ 338 ???? 59       	       POP     %ECX
+ 339 ???? C3       	       RET
  340              	#------------------------------------------------------------------------------
- 341 0240 3C39     	HA1B4:    CMP     $'9',%AL
- 342 0242 7703     	          JA      L3KCD37
- 343 0244 2C30     	sub_0x30: SUB     $0x30,%AL
- 344 0246 C3       	          RET
- 345 0247 2C37     	L3KCD37:  SUB     $0x37,%AL
- 346 0249 C3       	          RET
+ 341 ???? 3C39     	HA1B4:    CMP     $'9',%AL
+ 342 ???? 7703     	          JA      L3KCD37
+ 343 ???? 2C30     	sub_0x30: SUB     $0x30,%AL
+ 344 ???? C3       	          RET
+ 345 ???? 2C37     	L3KCD37:  SUB     $0x37,%AL
+ 346 ???? C3       	          RET
  347              	#------------------------------------------------------------------------------
  348              	.TEXT
- 349 024a 51       	HA2B8:   PUSH  %ECX
- 350 024b 88C5     	         MOV   %AL,%CH
- 351 024d 88E0     	         MOV   %AH,%AL
- 352 024f E8ECFFFF 	         CALL  HA1B4
+ 349 ???? 51       	HA2B8:   PUSH  %ECX
+ 350 ???? 88C5     	         MOV   %AL,%CH
+ 351 ???? 88E0     	         MOV   %AH,%AL
+ 352 ???? E8ECFFFF 	         CALL  HA1B4
  352      FF
- 353 0254 88C4     	         MOV   %AL,%AH
- 354 0256 C0C404   	         ROL   $4,%AH 
- 355 0259 88E8     	         MOV   %CH,%AL
- 356 025b E8E0FFFF 	         CALL  HA1B4
+ 353 ???? 88C4     	         MOV   %AL,%AH
+ 354 ???? C0C404   	         ROL   $4,%AH 
+ 355 ???? 88E8     	         MOV   %CH,%AL
+ 356 ???? E8E0FFFF 	         CALL  HA1B4
  356      FF
- 357 0260 08E0     	         OR    %AH,%AL 
- 358 0262 59       	         POP   %ECX
- 359 0263 C3       	         RET
+ 357 ???? 08E0     	         OR    %AH,%AL 
+ 358 ???? 59       	         POP   %ECX
+ 359 ???? C3       	         RET
  360              	#------------------------------------------------------------------------------
  361              	outdecimal_byte:
- 362 0264 50       	outdecimal_tiny:  PUSH %EAX  
- 363 0265 25FF0000 	                  AND  $0x000000FF,%EAX 
+ 362 ???? 50       	outdecimal_tiny:  PUSH %EAX  
+ 363 ???? 25FF0000 	                  AND  $0x000000FF,%EAX 
  363      00
- 364 026a E80F0000 	                  CALL outdecimal_long 
+ 364 ???? E80F0000 	                  CALL outdecimal_long 
  364      00
- 365 026f 58       	                  POP  %EAX 
- 366 0270 C3       	                  RET 
+ 365 ???? 58       	                  POP  %EAX 
+ 366 ???? C3       	                  RET 
  367              	#------------------------------------------------------------------------------
  368              	outdecimal_word:
- 369 0271 50       	outdecimal_short:  PUSH %EAX  
- 370 0272 25FFFF00 	                  AND  $0x0000FFFF,%EAX 
+ 369 ???? 50       	outdecimal_short:  PUSH %EAX  
+ 370 ???? 25FFFF00 	                  AND  $0x0000FFFF,%EAX 
  370      00
- 371 0277 E8020000 	                  CALL outdecimal_long 
+ 371 ???? E8020000 	                  CALL outdecimal_long 
  371      00
- 372 027c 58       	                  POP  %EAX 
- 373 027d C3       	                  RET 
+ 372 ???? 58       	                  POP  %EAX 
+ 373 ???? C3       	                  RET 
  374              	#-----------------------------------------------------------
  375              	.DATA
- 376 0034 00000000 	resti_cifre:      .fill 11,1
+ 376 ???? 00000000 	resti_cifre:      .fill 11,1
  376      00000000 
  376      000000
  377              	
  378              	.TEXT
- 379 027e 50       	outdecimal_long:  PUSH  %EAX
- 380 027f 53       		  PUSH  %EBX
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 9
+ 379 ???? 50       	outdecimal_long:  PUSH  %EAX
+ 380 ???? 53       		  PUSH  %EBX
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 9
 
 
- 381 0280 51       	                  PUSH  %ECX
- 382 0281 52       	                  PUSH  %EDX
- 383 0282 56       	                  PUSH  %ESI
- 384 0283 57       	                  PUSH  %EDI
- 385 0284 55       		PUSH  %EBP
+ 381 ???? 51       	                  PUSH  %ECX
+ 382 ???? 52       	                  PUSH  %EDX
+ 383 ???? 56       	                  PUSH  %ESI
+ 384 ???? 57       	                  PUSH  %EDI
+ 385 ???? 55       		PUSH  %EBP
  386              	
- 387 0285 B90A0000 	                  MOV   $10,%ECX
+ 387 ???? B90A0000 	                  MOV   $10,%ECX
  387      00
- 388 028a 3DFFC99A 	                  CMP   $999999999,%EAX
+ 388 ???? 3DFFC99A 	                  CMP   $999999999,%EAX
  388      3B
- 389 028f 773D     	                  JA    long_L4013K
- 390 0291 49       	                  DEC   %ECX
- 391 0292 3DFFE0F5 	                  CMP   $99999999,%EAX
+ 389 ???? 773D     	                  JA    long_L4013K
+ 390 ???? 49       	                  DEC   %ECX
+ 391 ???? 3DFFE0F5 	                  CMP   $99999999,%EAX
  391      05
- 392 0297 7735     	                  JA    long_L4013K
- 393 0299 49       	                  DEC   %ECX
- 394 029a 3D7F9698 	                  CMP   $9999999,%EAX
+ 392 ???? 7735     	                  JA    long_L4013K
+ 393 ???? 49       	                  DEC   %ECX
+ 394 ???? 3D7F9698 	                  CMP   $9999999,%EAX
  394      00
- 395 029f 772D     	                  JA    long_L4013K
- 396 02a1 49       	                  DEC   %ECX
- 397 02a2 3D3F420F 	                  CMP   $999999,%EAX
+ 395 ???? 772D     	                  JA    long_L4013K
+ 396 ???? 49       	                  DEC   %ECX
+ 397 ???? 3D3F420F 	                  CMP   $999999,%EAX
  397      00
- 398 02a7 7725     	                  JA    long_L4013K
- 399 02a9 49       	                  DEC   %ECX
- 400 02aa 3D9F8601 	                  CMP   $99999,%EAX
+ 398 ???? 7725     	                  JA    long_L4013K
+ 399 ???? 49       	                  DEC   %ECX
+ 400 ???? 3D9F8601 	                  CMP   $99999,%EAX
  400      00
- 401 02af 771D     	                  JA    long_L4013K
- 402 02b1 49       	                  DEC   %ECX
- 403 02b2 3D0F2700 	                  CMP   $9999,%EAX
+ 401 ???? 771D     	                  JA    long_L4013K
+ 402 ???? 49       	                  DEC   %ECX
+ 403 ???? 3D0F2700 	                  CMP   $9999,%EAX
  403      00
- 404 02b7 7715     	                  JA    long_L4013K
- 405 02b9 49       	                  DEC   %ECX
- 406 02ba 3DE70300 	                  CMP   $999,%EAX
+ 404 ???? 7715     	                  JA    long_L4013K
+ 405 ???? 49       	                  DEC   %ECX
+ 406 ???? 3DE70300 	                  CMP   $999,%EAX
  406      00
- 407 02bf 770D     	                  JA    long_L4013K
- 408 02c1 49       	                  DEC   %ECX
- 409 02c2 83F863   	                  CMP   $99,%EAX
- 410 02c5 7707     	                  JA    long_L4013K
- 411 02c7 49       	                  DEC   %ECX
- 412 02c8 83F809   	                  CMP   $9,%EAX
- 413 02cb 7701     	                  JA    long_L4013K
- 414 02cd 49       	                  DEC   %ECX
+ 407 ???? 770D     	                  JA    long_L4013K
+ 408 ???? 49       	                  DEC   %ECX
+ 409 ???? 83F863   	                  CMP   $99,%EAX
+ 410 ???? 7707     	                  JA    long_L4013K
+ 411 ???? 49       	                  DEC   %ECX
+ 412 ???? 83F809   	                  CMP   $9,%EAX
+ 413 ???? 7701     	                  JA    long_L4013K
+ 414 ???? 49       	                  DEC   %ECX
  415              	
- 416 02ce 8D3D3400 	long_L4013K:      LEA   resti_cifre,%EDI
+ 416 ???? 8D3D3400 	long_L4013K:      LEA   resti_cifre,%EDI
  416      0000
- 417 02d4 89CD     	                  MOV   %ECX, %EBP
- 418 02d6 01CF     	                  ADD   %ECX,%EDI      # EDI punta sotto alla cifra da inserire per prima
- 419 02d8 4F       	                  DEC   %EDI           # EDI torna a puntare alla prima cifra da inserire
- 420 02d9 BA000000 	ciclolongL4013K:  MOV   $0,%EDX        # costruzione del dividendo EDX:EAX
+ 417 ???? 89CD     	                  MOV   %ECX, %EBP
+ 418 ???? 01CF     	                  ADD   %ECX,%EDI      # EDI punta sotto alla cifra da inserire per prima
+ 419 ???? 4F       	                  DEC   %EDI           # EDI torna a puntare alla prima cifra da inserire
+ 420 ???? BA000000 	ciclolongL4013K:  MOV   $0,%EDX        # costruzione del dividendo EDX:EAX
  420      00
- 421 02de BE0A0000 	                  MOV   $10,%ESI       # divisore in ESI
+ 421 ???? BE0A0000 	                  MOV   $10,%ESI       # divisore in ESI
  421      00
- 422 02e3 F7F6     	                  DIVL  %ESI   
- 423 02e5 83E20F   	                  AND   $0x0000000F,%EDX # sistemazione del resto_cifra codificato ASCII
- 424 02e8 80C230   	                  ADD   $0x30,%DL
- 425 02eb 8817     	                  MOV   %DL,(%EDI) 
+ 422 ???? F7F6     	                  DIVL  %ESI   
+ 423 ???? 83E20F   	                  AND   $0x0000000F,%EDX # sistemazione del resto_cifra codificato ASCII
+ 424 ???? 80C230   	                  ADD   $0x30,%DL
+ 425 ???? 8817     	                  MOV   %DL,(%EDI) 
  426              	
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 10
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 10
 
 
- 427 02ed 4F       	                  DEC   %EDI   
- 428 02ee 49       	                  DEC   %ECX
- 429 02ef 83F900   	                  CMP   $0,%ECX        # Controllo fine ciclo
- 430 02f2 75E5     	                  JNE   ciclolongL4013K
+ 427 ???? 4F       	                  DEC   %EDI   
+ 428 ???? 49       	                  DEC   %ECX
+ 429 ???? 83F900   	                  CMP   $0,%ECX        # Controllo fine ciclo
+ 430 ???? 75E5     	                  JNE   ciclolongL4013K
  431              	
- 432 02f4 8D1D3400 	                  LEA   resti_cifre,%EBX
+ 432 ???? 8D1D3400 	                  LEA   resti_cifre,%EBX
  432      0000
- 433 02fa 89E9     					  MOV   %EBP, %ECX
- 434 02fc E8EEFEFF 	                  CALL  outmess  
+ 433 ???? 89E9     					  MOV   %EBP, %ECX
+ 434 ???? E8EEFEFF 	                  CALL  outmess  
  434      FF
  435              	
- 436 0301 5D       					  POP   %EBP
- 437 0302 5F       					  POP   %EDI
- 438 0303 5E       	                  POP   %ESI
- 439 0304 5A       	                  POP   %EDX
- 440 0305 59       	                  POP   %ECX
- 441 0306 5B       					  POP   %EBX
- 442 0307 58       	                  POP   %EAX
- 443 0308 C3       	                  RET
+ 436 ???? 5D       					  POP   %EBP
+ 437 ???? 5F       					  POP   %EDI
+ 438 ???? 5E       	                  POP   %ESI
+ 439 ???? 5A       	                  POP   %EDX
+ 440 ???? 59       	                  POP   %ECX
+ 441 ???? 5B       					  POP   %EBX
+ 442 ???? 58       	                  POP   %EAX
+ 443 ???? C3       	                  RET
  444              	#------------------------------------------------------------------------------
  445              	
  446              	.TEXT
  447              	indecimal_byte:
- 448 0309 C6054300 	indecimal_tiny:   MOVB  $3,num_cifre_1eWK7
+ 448 ???? C6054300 	indecimal_tiny:   MOVB  $3,num_cifre_1eWK7
  448      000003
- 449 0310 53       	                  PUSH %EBX
- 450 0311 50       	                  PUSH %EAX
- 451 0312 E82B0000 	                  CALL converti_1eWK6
+ 449 ???? 53       	                  PUSH %EBX
+ 450 ???? 50       	                  PUSH %EAX
+ 451 ???? E82B0000 	                  CALL converti_1eWK6
  451      00
- 452 0317 88C3     	                  MOV  %AL,%BL
- 453 0319 58       	                  POP  %EAX
- 454 031a 88D8     	                  MOV  %BL,%AL
- 455 031c 5B       	                  POP  %EBX
- 456 031d C3       	                  RET
+ 452 ???? 88C3     	                  MOV  %AL,%BL
+ 453 ???? 58       	                  POP  %EAX
+ 454 ???? 88D8     	                  MOV  %BL,%AL
+ 455 ???? 5B       	                  POP  %EBX
+ 456 ???? C3       	                  RET
  457              	
  458              	indecimal_word:
- 459 031e C6054300 	indecimal_short:   MOVB  $5,num_cifre_1eWK7
+ 459 ???? C6054300 	indecimal_short:   MOVB  $5,num_cifre_1eWK7
  459      000005
- 460 0325 53       	                  PUSH %EBX
- 461 0326 50       	                  PUSH %EAX
- 462 0327 E8160000 	                  CALL converti_1eWK6
+ 460 ???? 53       	                  PUSH %EBX
+ 461 ???? 50       	                  PUSH %EAX
+ 462 ???? E8160000 	                  CALL converti_1eWK6
  462      00
- 463 032c 6689C3   	                  MOV  %AX,%BX
- 464 032f 58       	                  POP  %EAX
- 465 0330 6689D8   	                  MOV  %BX,%AX
- 466 0333 5B       	                  POP  %EBX
- 467 0334 C3       	                  RET
+ 463 ???? 6689C3   	                  MOV  %AX,%BX
+ 464 ???? 58       	                  POP  %EAX
+ 465 ???? 6689D8   	                  MOV  %BX,%AX
+ 466 ???? 5B       	                  POP  %EBX
+ 467 ???? C3       	                  RET
  468              	
- 469 0335 C6054300 	indecimal_long:   MOVB  $10,num_cifre_1eWK7
+ 469 ???? C6054300 	indecimal_long:   MOVB  $10,num_cifre_1eWK7
  469      00000A
- 470 033c E8010000 	                  CALL  converti_1eWK6
+ 470 ???? E8010000 	                  CALL  converti_1eWK6
  470      00
- 471 0341 C3       	                  RET
+ 471 ???? C3       	                  RET
  472              	
  473              	#------------------------------------------------------------------------------
  474              	# Converta da decimale a binario in EAX
  475              	
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 11
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 11
 
 
  476              	.DATA
- 477 003f 00000000 	prodotti_parziali_1eWK7:   .fill 1,4
- 478 0043 00       	num_cifre_1eWK7:            .fill 1,1
+ 477 ???? 00000000 	prodotti_parziali_1eWK7:   .fill 1,4
+ 478 ???? 00       	num_cifre_1eWK7:            .fill 1,1
  479              	
  480              	.TEXT   
- 481 0342 90       	converti_1eWK6:    NOP
- 482 0343 52       		    PUSH %EDX
- 483 0344 C7053F00 	P_di_0_1eWK7:    MOVL  $0, prodotti_parziali_1eWK7
+ 481 ???? 90       	converti_1eWK6:    NOP
+ 482 ???? 52       		    PUSH %EDX
+ 483 ???? C7053F00 	P_di_0_1eWK7:    MOVL  $0, prodotti_parziali_1eWK7
  483      00000000 
  483      0000
  484              	                 
- 485 034e 803D4300 	ciclo_1eWK7:  CMPB  $0x00,num_cifre_1eWK7     # termina se cifre finite
+ 485 ???? 803D4300 	ciclo_1eWK7:  CMPB  $0x00,num_cifre_1eWK7     # termina se cifre finite
  485      000000
- 486 0355 7439     	                      JE    fine_1eWK7
- 487 0357 E8A4FCFF 	new_cifra_1eWK7:   CALL  inchar                    # prelievo eventuale nuova cifra
+ 486 ???? 7439     	                      JE    fine_1eWK7
+ 487 ???? E8A4FCFF 	new_cifra_1eWK7:   CALL  inchar                    # prelievo eventuale nuova cifra
  487      FF
- 488 035c 3C0D     	                      CMP   $0x0D,%AL                 # termina se ritorno carrello
- 489 035e 7430     	                      JE    fine_1eWK7 
+ 488 ???? 3C0D     	                      CMP   $0x0D,%AL                 # termina se ritorno carrello
+ 489 ???? 7430     	                      JE    fine_1eWK7 
  490              	                   
- 491 0360 3C30     	                      CMP   $'0',%AL                  # scarta cifre non decimali
- 492 0362 72F3     	                      JB    new_cifra_1eWK7
- 493 0364 3C39     	                      CMP   $'9',%AL
- 494 0366 77EF     	                      JA    new_cifra_1eWK7
- 495 0368 E8C8FCFF 	                      CALL  outchar
+ 491 ???? 3C30     	                      CMP   $'0',%AL                  # scarta cifre non decimali
+ 492 ???? 72F3     	                      JB    new_cifra_1eWK7
+ 493 ???? 3C39     	                      CMP   $'9',%AL
+ 494 ???? 77EF     	                      JA    new_cifra_1eWK7
+ 495 ???? E8C8FCFF 	                      CALL  outchar
  495      FF
  496              	
- 497 036d 50       	                      PUSH  %EAX                      # nuovo prodotto parziale
- 498 036e B80A0000 	                      MOV   $10,%EAX
+ 497 ???? 50       	                      PUSH  %EAX                      # nuovo prodotto parziale
+ 498 ???? B80A0000 	                      MOV   $10,%EAX
  498      00
- 499 0373 F7253F00 	                      MULL  prodotti_parziali_1eWK7    
+ 499 ???? F7253F00 	                      MULL  prodotti_parziali_1eWK7    
  499      0000
- 500 0379 A33F0000 	                      MOV   %EAX,prodotti_parziali_1eWK7
+ 500 ???? A33F0000 	                      MOV   %EAX,prodotti_parziali_1eWK7
  500      00
- 501 037e 58       	                      POP   %EAX          
- 502 037f 83E00F   	                      AND   $0x0000000F,%EAX
- 503 0382 01053F00 	                      ADDL  %EAX, prodotti_parziali_1eWK7
+ 501 ???? 58       	                      POP   %EAX          
+ 502 ???? 83E00F   	                      AND   $0x0000000F,%EAX
+ 503 ???? 01053F00 	                      ADDL  %EAX, prodotti_parziali_1eWK7
  503      0000
  504              	
- 505 0388 FE0D4300 	                      DECB  num_cifre_1eWK7                  
+ 505 ???? FE0D4300 	                      DECB  num_cifre_1eWK7                  
  505      0000
- 506 038e 75BE     	                      JNE   ciclo_1eWK7                        
+ 506 ???? 75BE     	                      JNE   ciclo_1eWK7                        
  507              	                  
- 508 0390 A13F0000 	fine_1eWK7:           MOV   prodotti_parziali_1eWK7,%EAX 
+ 508 ???? A13F0000 	fine_1eWK7:           MOV   prodotti_parziali_1eWK7,%EAX 
  508      00
- 509 0395 5A       	                      POP %EDX
- 510 0396 C3       	                      RET
+ 509 ???? 5A       	                      POP %EDX
+ 510 ???? C3       	                      RET
  511              	#-------------------------------------------------------------------------
  512              	.DATA
- 513 0044 0A0D0A0D 	LZ647513: .BYTE   0x0A,0x0D,0x0A,0x0D
- 514 0048 50726573 	          .ASCII  "Press Q to exit . . . "
+ 513 ???? 0A0D0A0D 	LZ647513: .BYTE   0x0A,0x0D,0x0A,0x0D
+ 514 ???? 50726573 	          .ASCII  "Press Q to exit . . . "
  514      73205120 
  514      746F2065 
  514      78697420 
@@ -1963,22 +1963,22 @@ GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025
  515              	LZ567893: .BYTE
  516              	
  517              	.TEXT
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 12
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 12
 
 
- 518 0397 BE440000 	exit:          MOV  $LZ647513,%ESI
+ 518 ???? BE440000 	exit:          MOV  $LZ647513,%ESI
  518      00
- 519 039c 66B91A00 	               MOV  $(LZ567893-LZ647513),%CX
- 520 03a0 8A06     	LZ247AA7:      MOV  (%ESI),%AL
- 521 03a2 E88EFCFF 	               CALL outchar
+ 519 ???? 66B91A00 	               MOV  $(LZ567893-LZ647513),%CX
+ 520 ???? 8A06     	LZ247AA7:      MOV  (%ESI),%AL
+ 521 ???? E88EFCFF 	               CALL outchar
  521      FF
- 522 03a7 46       	               INC  %ESI
- 523 03a8 6649     	               DEC  %CX
- 524 03aa 75F4     	               JNZ  LZ247AA7
- 525 03ac E84FFCFF 	waitQ_LZc247A: CALL inchar
+ 522 ???? 46       	               INC  %ESI
+ 523 ???? 6649     	               DEC  %CX
+ 524 ???? 75F4     	               JNZ  LZ247AA7
+ 525 ???? E84FFCFF 	waitQ_LZc247A: CALL inchar
  525      FF
- 526 03b1 3C51     	               CMP  $'Q',%AL
- 527 03b3 75F7     	               JNE  waitQ_LZc247A
+ 526 ???? 3C51     	               CMP  $'Q',%AL
+ 527 ???? 75F7     	               JNE  waitQ_LZc247A
  528              	
  529              	.ifdef DOS
  530              	               MOV $0x4C,%AH
@@ -1986,8 +1986,8 @@ GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025
  532              	.endif
  533              	
  534              	.ifdef LINUX    
- 535 03b5 66B80100 	               MOV $0x0001,%AX
- 536 03b9 CD80     	               INT $0x80
+ 535 ???? 66B80100 	               MOV $0x0001,%AX
+ 536 ???? CD80     	               INT $0x80
  537              	.endif
  538              	
  539              	#----------------------------------------------------------------------------- 
@@ -1997,44 +1997,90 @@ GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025
    6              	.data
    7              	abs_a:              .long
    8              	abs_b:              .word
-   9 005e 00       	sgn_a:              .byte 0
-  10 005f 00       	sgn_b:              .byte 0
-  11              	.text
-  12 03bb 90       	_main:                NOP
-  13              	# --- Inserimento -------------------------------------------------------
-  14 03bc E8C8FCFF 	                      CALL inlong                   # %EAX
-  14      FF
-  15 03c1 83F800   	                      CMP $0, %EAX
-  16 03c4 7D0A     	                      JGE pos_a
-  17 03c6 C6055E00 	                      MOVB $1, sgn_a
-  17      000001
-  18 03cd F7D8     	                      NEG %EAX
-  19 03cf 40       	                      INC %EAX
-  20              	
-  21 03d0 A35E0000 	pos_a:                MOV %EAX, abs_a
-  21      00
-  22              	
-  23 03d5 E8F3FCFF 	                      CALL newline
-  23      FF
-  24 03da E89DFCFF 	                      CALL inword                   # %AX
-  24      FF
-  25 03df 6683F800 	                      CMP $0, %AX
-  26 03e3 7D0C     	                      JGE pos_b
-  27 03e5 C6055F00 	                      MOVB $1, sgn_b
-  27      000001
-  28 03ec 66F7D8   	                      NEG %AX
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 13
-
-
-  29 03ef 6640     	                      INC %AX
+   9 ???? 00       	sgn_a:              .byte 0
+  10 ???? 00       	sgn_b:              .byte 0
+  11              	
+  12 ???? 00       	sgn_q:              .byte 0
+  13 ???? 00       	sgn_r:              .byte 0
+  14              	abs_q:              .long                           # ?
+  15              	abs_r:              .word
+  16              	
+  17 ???? 4E4F2044 	mess:               .ASCIZ "NO DIV\r"
+  17      49560D00 
+  18              	
+  19              	.text
+  20 ???? 90       	_main:                NOP
+  21              	# --- Inserimento -------------------------------------------------------
+  22 ???? E8C8FCFF 	                      CALL inlong                   # %EAX
+  22      FF
+  23 ???? 83F800   	                      CMP $0, %EAX
+  24 ???? 7D0A     	                      JGE pos_a
+  25 ???? C6055E00 	                      MOVB $1, sgn_a
+  25      000001
+  26 ???? F7D8     	                      NEG %EAX
+  27 ???? 40       	                      INC %EAX
+  28              	
+  29 ???? A35E0000 	pos_a:                MOV %EAX, abs_a
+  29      00
   30              	
-  31 03f1 66A35E00 	pos_b:                MOV %AX, abs_b
-  31      0000
-  32              	
-  33              	
-  34 03f7 C3       	                      RET
-  35              	
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 14
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 13
+
+
+  31 ???? E8F3FCFF 	                      CALL newline
+  31      FF
+  32 ???? E89DFCFF 	                      CALL inword                   # %AX
+  32      FF
+  33 ???? 6683F800 	                      CMP $0, %AX
+  34 ???? 7D0C     	                      JGE pos_b
+  35 ???? C6055F00 	                      MOVB $1, sgn_b
+  35      000001
+  36 ???? 66F7D8   	                      NEG %AX
+  37 ???? 6640     	                      INC %AX
+  38              	
+  39 ???? 66A35E00 	pos_b:                MOV %AX, abs_b
+  39      0000
+  40              	
+  41              	#!------------------------------------------------------------------------
+  42              	# --- a = q * b + r ------------------------------------------------------
+  43 ???? 31DB     	                      XOR %EBX, %EBX
+  44 ???? 31C9     	                      XOR %ECX, %ECX
+  45 ???? A15E0000 	                      MOVL abs_a, %EAX
+  45      00
+  46              	                      MOVW abs_b, %EBX
+  47              	
+  48 ???? 39D8     	                      CMP %EBX, %EAX
+  49 ???? 7C06     	                      JL loop_div
+  50 ???? EB0F     	                      JMP nodiv
+  51              	
+  52 ???? 39D8     	Idiv:                 CMP %EBX, %EAX
+  53 ???? 7F05     	                      JG end_div
+  54              	
+  55 ???? 29D8     	loop_div:             SUB %EBX, %EAX
+  56 ???? 41       	                      INC %ECX                       # in %ECX calcolo q
+  57 ???? EBF7     	                      JMP Idiv
+  58              	
+  59 ???? 66A36200 	end_div:              MOV %AX, abs_r
+  59      0000
+  60              	
+  61              	
+  62              	
+  63              	
+  64              	
+  65              	
+  66              	
+  67              	
+  68              	#!------------------------------------------------------------------------
+  69              	# --- stampa -------------------------------------------------------------
+  70 ???? E8B3FCFF 	nodiv:                CALL newline
+  70      FF
+  71 ???? 8D1D6200 	                      LEA mess, %EBX
+  71      0000
+  72 ???? E8A8FDFF 	                      CALL outline                   # ? oppure outmess
+  72      FF
+  73              	
+  74 ???? C3       	                      RET
+  75              	
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 14
 
 
 DEFINED SYMBOLS
@@ -2094,7 +2140,7 @@ DEFINED SYMBOLS
    ./files/utility.s:345    .text:00000247 L3KCD37
    ./files/utility.s:343    .text:00000244 sub_0x30
    ./files/utility.s:361    .text:00000264 outdecimal_byte
-GAS LISTING /home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s 			page 15
+GAS LISTING /home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s 			page 15
 
 
    ./files/utility.s:362    .text:00000264 outdecimal_tiny
@@ -2121,12 +2167,21 @@ DEFINED SYMBOLS
    ./files/utility.s:518    .text:00000397 exit
    ./files/utility.s:520    .text:000003a0 LZ247AA7
    ./files/utility.s:525    .text:000003ac waitQ_LZc247A
-/home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s:12     .text:000003bb _main
-/home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s:7      .data:0000005e abs_a
-/home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s:8      .data:0000005e abs_b
-/home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s:9      .data:0000005e sgn_a
-/home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s:10     .data:0000005f sgn_b
-/home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s:21     .text:000003d0 pos_a
-/home/nick/reti_logiche/assembler/Esercizi/24-01-2025_dir/24-01-2025_3.s:31     .text:000003f1 pos_b
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:20     .text:000003bb _main
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:7      .data:0000005e abs_a
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:8      .data:0000005e abs_b
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:9      .data:0000005e sgn_a
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:10     .data:0000005f sgn_b
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:12     .data:00000060 sgn_q
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:13     .data:00000061 sgn_r
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:14     .data:00000062 abs_q
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:15     .data:00000062 abs_r
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:17     .data:00000062 mess
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:29     .text:000003d0 pos_a
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:39     .text:000003f1 pos_b
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:55     .text:0000040a loop_div
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:70     .text:00000415 nodiv
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:52     .text:00000406 Idiv
+/home/nick/Desktop/UniPi/RetiLogiche/Assembler/Esami/24-01-2025_dir/24-01-2025_3.s:59     .text:0000040f end_div
 
 NO UNDEFINED SYMBOLS

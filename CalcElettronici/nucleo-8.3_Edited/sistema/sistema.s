@@ -232,13 +232,17 @@ init_idt:
 	//primitive comuni (tipi 0x2-)
 	carica_gate	TIPO_A		a_activate_p	LIV_UTENTE
 	carica_gate	TIPO_T		a_terminate_p	LIV_UTENTE
-	carica_gate	TIPO_SI		a_sem_ini	LIV_UTENTE
-	carica_gate	TIPO_W		a_sem_wait	LIV_UTENTE
+	carica_gate	TIPO_SI		a_sem_ini		LIV_UTENTE
+	carica_gate	TIPO_W		a_sem_wait		LIV_UTENTE
 	carica_gate	TIPO_S		a_sem_signal	LIV_UTENTE
-	carica_gate	TIPO_D		a_delay		LIV_UTENTE
-	carica_gate	TIPO_AB		a_abort_p	LIV_UTENTE
-	carica_gate	TIPO_L		a_do_log	LIV_UTENTE
+	carica_gate	TIPO_D		a_delay			LIV_UTENTE
+	carica_gate	TIPO_AB		a_abort_p		LIV_UTENTE
+	carica_gate	TIPO_L		a_do_log		LIV_UTENTE
 	carica_gate	TIPO_GMI	a_getmeminfo	LIV_UTENTE
+
+	carica_gate TIPO_LEGGI  a_leggi			LIV_UTENTE				#W
+	carica_gate TIPO_SCRIVI a_scrivi		LIV_UTENTE				#W
+
 
 	// primitive per il livello I/O (tipi 0x3-)
 	carica_gate	TIPO_APE	a_activate_pe	LIV_SISTEMA

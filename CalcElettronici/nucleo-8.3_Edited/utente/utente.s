@@ -139,5 +139,10 @@ getiomeminfo:
 	int $IO_TIPO_GMI
 	ret
 	.cfi_endproc
+
+
+
+
+	
 /// @endcond
 /// @}

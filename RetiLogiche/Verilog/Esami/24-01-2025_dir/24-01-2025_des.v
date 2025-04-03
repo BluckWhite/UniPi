@@ -14,8 +14,7 @@ module ABC(soc1, eoc1, x1,
     reg OUT;
     assign out = OUT;
 
-    input reset_;
-    input clock;
+    input reset_, clock;
 
     wire[7:0] media;
     MEDIA m(x1,x2,media);
@@ -33,7 +32,7 @@ module ABC(soc1, eoc1, x1,
     always @(posedge clock) if(reset_ == 1) begin
         casex(STAR)
             S0: begin 
-                #3 OUT <= 0;
+                OUT <= 0;
                 SOC <= 1;
                 STAR <= ( {eoc1, eoc2} == 2'B00 ) ? S1 : S0;
             end

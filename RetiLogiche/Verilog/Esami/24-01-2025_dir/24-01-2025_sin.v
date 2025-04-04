@@ -85,31 +85,13 @@ module Parte_Operativa(soc1, eoc1, x1,
            c1 = eoc1 & eoc2,
            c2 = COUNT,
            c3 = ~COUNT;
-    always @(reset_ == 0) begin
-        OUT <= 0; SOC <= 0;
-        COUNT <= 0;
-    end
-    always @(posedge clock) if(reset_ == 1)
-        casex(b1_b0)
-            'B00: begin 
-                OUT <= 0;
-                SOC <= 1;
-                COUNT <= COUNT;
-            end
-            'B01: begin
-                SOC <= 0;
-                COUNT <= media;
-                OUT <= OUT;
-            end
-            'B10: begin
-               SOC <= SOC;
-               OUT <= OUT;
-               COUNT <= COUNT; 
-            end
-            'B11: begin
-                OUT <= 1;
-                COUNT <= COUNT - 1;
-                SOC <= SOC;
-            end
+    
+    always @(reset_ == 0) begin OUT <= 0 end
+    always @(reset_ == 0) begin COUNT <= 0 end
+    always @(reset_ == 0) begin SOC <= 0 end
+
+    always @(posedge clock) if(reset_ == 1) begin
+        casex()
         endcase
+
 endmodule
